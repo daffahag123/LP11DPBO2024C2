@@ -26,7 +26,25 @@ Program ini dibangun menggunakan konsep MVP (Model, View, Presenter) dalam parad
    - index.php: File utama yang bertanggung jawab sebagai titik masuk utama dalam aplikasi. Digunakan untuk mengatur alur logika dan menampilkan tampilan berdasarkan permintaan pengguna. File ini mengimpor kelas dan file yang diperlukan, seperti model dan view, untuk memproses dan menampilkan data pasien. Selain itu, index.php juga menangani permintaan GET dan POST untuk tindakan seperti menampilkan data, menambahkan data baru, mengedit data, dan menghapus data.
 
 # Alur Program
+Tampil Data
+- Pengguna dapat melihat daftar data pasien pada halaman utama aplikasi.
+- Data pasien ditampilkan dalam bentuk tabel HTML.
+- Informasi yang ditampilkan mencakup NIK, nama, tempat lahir, tanggal lahir, jenis kelamin, email, dan nomor telepon.
+  
+Tambah Data
+- Pengguna dapat menekan tombol "Tambah Data" pada halaman utama.
+- Pengguna akan diarahkan ke halaman formulir untuk mengisi informasi seperti NIK, nama, tempat lahir, tanggal lahir, jenis kelamin, email, dan nomor telepon.
+- Setelah mengisi formulir dan mengirimkannya, data baru akan disimpan dalam database.
 
+Ubah Data
+- Pengguna dapat melakukan klik tombol "Edit" pada halaman utama.
+- Pengguna akan diarahkan ke halaman formulir yang sudah diisi dengan informasi data yang ingin diubah.
+- Setelah melakukan pengeditan, data akan terupdate di dalam database sesuai dengan perubahan yang telah dilakukan oleh pengguna.
+
+Hapus Data
+- Pengguna dapat mengklik tombol "Hapus" pada halaman utama.
+- Setelah mengklik tombol hapus, pengguna akan diminta untuk konfirmasi apakah mereka yakin ingin menghapus data tersebut.
+- Jika pengguna mengonfirmasi, data akan dihapus dari database.
 
 # Dokumentasi Program
 Halaman Home/Daftar Pasien
